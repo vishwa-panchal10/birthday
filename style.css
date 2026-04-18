@@ -355,11 +355,18 @@ h2 { font-size: clamp(2rem, 6vw, 3rem); margin-bottom: 30px; }
 
     .gallery-item {
         height: auto;
+        min-height: 200px;
         aspect-ratio: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .gallery-item img {
+        display: block;
         height: auto;
+        max-height: 80vh;
+        width: 100%;
         object-fit: contain;
     }
 
