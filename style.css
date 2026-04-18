@@ -354,7 +354,13 @@ h2 { font-size: clamp(2rem, 6vw, 3rem); margin-bottom: 30px; }
     }
 
     .gallery-item {
-        height: 200px;
+        height: auto;
+        aspect-ratio: auto;
+    }
+
+    .gallery-item img {
+        height: auto;
+        object-fit: contain;
     }
 
     .img-overlay {
